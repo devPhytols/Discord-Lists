@@ -1,0 +1,46 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    background-color: rgb(224, 224, 224);
+}
+.container{
+    padding: 100px;
+    align-items: center;
+    text-align: center;
+    object-position: center;
+}
+
+.container span{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.container a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(211, 43, 226);
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 50px;
+    box-shadow: 0 0 0.30vh rgb(92, 92, 92);
+}
+
+.container a:hover{
+    color: black;
+}
+
+.title{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 150px;
+    color: rgb(211, 43, 226);
+    text-shadow:  0 0 0.40vh rgb(114, 114, 114);
+}
+
+@media (max-width: 600px) {
+    .title{
+        content-visibility: hidden;
+    }
+}

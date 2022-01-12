@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=PT+Sans&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap);
+
+html, body{
+  margin: 0;
+  background-color: #16181d;
+}
+
+.site-header{
+  padding: 10px 8px;
+  background-color: #101114;
+  position: relative
+}
+
+.navbar{
+  padding: 11px;
+  overflow: hidden;
+  background-color: #101114;
+}
+
+.logo img{
+  padding: 14px 16px;
+  width: 40px;
+  height: 40px;
+  float: left;
+}
+
+.navbar a{
+  font-family: Karla,sans-serif;
+  float: left;
+  text-align: center;
+  padding: 14px 8px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar a:hover{
+  color: #b4b4b4;
+}
+
+#active{
+  font-weight: bold;
+  color: rgb(211, 39, 91);
+}
+
+.login-account a{
+  float: right;
+  width: 40px;
+  margin-right: 15px;
+  margin-top: 5px;
+  padding: 11px 15px;
+  background-color: #1f2025;
+  color: #fff;
+  font-size: 15px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.login-account a:hover{
+  background-color: #2d2e33;
+  color: #fff;
+}
+
+.box-text{
+  padding: 90px 18px;
+}
+
+.title{
+  font-family: Karla,sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: #fff;
+}
+
+.about{
+  padding: 9px 3px;
+  color: rgb(212, 212, 212);
+  font-family: Karla,sans-serif;
+  font-size: 18px;
+}
+
+.search{
+  padding-left: 3px;
+}
+
+.tags{
+  margin-top: 10px;
+  padding: 9px 0px;
+  font-family: Karla,sans-serif;
+  font-weight: bold;
+}
+
+.tags a{
+  padding: 10px 16px;
+  background-color: #18191d;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 3px;
+  border-radius: 7px;
+}
+
+.tags a:hover{
+  background-color: #242529;
+}
+
+.tags i{
+  color: rgb(211, 39, 91);
+}
+
+.search #search{
+  font-family: Karla,sans-serif;
+  padding-left: 15px;
+  outline: none;
+  font-size: 20px;
+  color: #b4b4b4;
+  background-color: #2d2e33;
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 7px;
+}
+
+.box-text-bots{
+  padding: 90px 25px;
+}
+
+.title-bots{
+  font-family: Karla,sans-serif;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.about-bots{
+  font-family: Karla,sans-serif;
+  color: #fff;
+  font-size: 19px;
+  margin-top: 3px;
+}

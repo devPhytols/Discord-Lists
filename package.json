@@ -1,0 +1,31 @@
+{
+  "name": "Discord-List",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "devPhytols",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "discord-banner": "^1.6.7",
+    "discord.js": "^12.5.3",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "figlet": "^1.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
